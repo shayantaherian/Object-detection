@@ -88,4 +88,7 @@ python yolo_Opencv_Face_video.py
 
 Note that to use yolo for face detection it is required to download yolo face detection weight from [yolov3.weights](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view)
 
-An example of yolo face detection
+
+### References
+1. [Paperspace: YOLO object detector in PyTorch](https://blog.paperspace.com/tag/series-yolo/)
+2. [YOLO object detection using Opencv with Python](https://www.youtube.com/watch?v=h56M5iUVgGs)
