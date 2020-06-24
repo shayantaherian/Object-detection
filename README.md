@@ -4,3 +4,4 @@ This project implements a real time object and face detection using YOLO algorit
 1. python 3.5
 2. Opencv 3.4.2
 3. pytorch
+# Object Detection Example 
