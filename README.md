@@ -36,3 +36,4 @@ python detect_video.py
 `
 
 ### Object detection using opencv
+OpenCV `dnn ` module supports different pre-trained deep learning models and recently YOLO/Darknet has been added to opencv dnn module.
