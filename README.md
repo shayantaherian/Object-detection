@@ -26,6 +26,7 @@ To run image detection
 `
 python detect.py
 `
+
 To run video and real-time webcame
 
 `
