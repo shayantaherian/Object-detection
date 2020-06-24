@@ -17,6 +17,8 @@ git clone https://github.com/shayantaherian/Object-detection/Pytorch_ObjectDetec
 `
 
 Then move to the directory
+
+
 `
 cd Pytorch_ObjectDetection
 `
