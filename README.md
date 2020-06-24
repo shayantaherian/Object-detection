@@ -41,4 +41,6 @@ Note that YOLO weights can be downloaded from [yolov3.weights](https://pjreddie.
 ### Object detection using opencv
 OpenCV `dnn ` module supports different pre-trained deep learning models and recently YOLO/Darknet has been added to opencv dnn module. To run the detector, first clone to the repository
 
-
+`
+git clone https://github.com/shayantaherian/Object-detection/OpenCV_ObjectDetection/.git
+`
