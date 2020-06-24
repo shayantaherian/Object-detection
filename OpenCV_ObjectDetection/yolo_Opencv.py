@@ -3,12 +3,12 @@ import numpy as np
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_cfg', type = str, default = '/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/yolov3.cfg',
+parser.add_argument('--model_cfg', type = str, default = '',
                     help = 'Path to config file')
 parser.add_argument('--model_weights', type=str,
-                    default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/yolov3.weights',
+                    default='',
                     help='path to weights of model')
-parser.add_argument('--image', type=str, default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/carla.jpg',
+parser.add_argument('--image', type=str, default='',
                     help='path to video file')
 parser.add_argument('--output_dir', type=str, default='outputs/',
                     help='path to the output directory')
