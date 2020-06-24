@@ -10,8 +10,24 @@ This project implements a real time object and face detection using YOLO algorit
 ![Face1](https://user-images.githubusercontent.com/51369142/85573505-ddd92300-b62d-11ea-8597-ace58f6fb7cc.jpg)
 # Running the detectors
 ### Object detection using pytorch
-To detect a single or multiple images, first clone the repository and move to the directory
+To detect a single or multiple images, first clone the repository 
 
 `
 git clone https://github.com/shayantaherian/Object-detection/Pytorch_ObjectDetection/.git
 `
+
+Then move to the directory
+```
+cd Pytorch_ObjectDetection
+```
+
+To run image detection
+
+```
+python detect.py
+```
+To run video and real-time webcame
+
+```
+python detect_video.py
+```
