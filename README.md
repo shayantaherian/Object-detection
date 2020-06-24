@@ -17,17 +17,17 @@ git clone https://github.com/shayantaherian/Object-detection/Pytorch_ObjectDetec
 `
 
 Then move to the directory
-```
+`
 cd Pytorch_ObjectDetection
-```
+`
 
 To run image detection
 
-```
+`
 python detect.py
-```
+`
 To run video and real-time webcame
 
-```
+`
 python detect_video.py
-```
+`
