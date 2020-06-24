@@ -4,12 +4,12 @@ import argparse
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_cfg', type = str, default = '/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/Face_Detection/cfg/yolov3-face.cfg',
+parser.add_argument('--model_cfg', type = str, default = '',
                     help = 'Path to config file')
 parser.add_argument('--model_weights', type=str,
-                    default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/Face_Detection/model-weights/yolov3-wider_16000.weights',
+                    default='',
                     help='path to weights of model')
-parser.add_argument('--image', type=str, default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/Face_Detection/dort.jpg',
+parser.add_argument('--image', type=str, default='',
                     help='path to image file')
 parser.add_argument('--output_dir', type=str, default='outputs/',
                     help='path to the output directory')
