@@ -6,12 +6,12 @@ import time
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_cfg', type = str, default = '/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/yolov3.cfg',
+parser.add_argument('--model_cfg', type = str, default = '',
                     help = 'Path to config file')
 parser.add_argument('--model_weights', type=str,
-                    default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/yolov3.weights',
+                    default='',
                     help='path to weights of model')
-parser.add_argument('--video', type=str, default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Video.mov',
+parser.add_argument('--video', type=str, default='',
                     help='path to video file')
 parser.add_argument('--src', type=int, default=0,
                     help='source of the camera')
