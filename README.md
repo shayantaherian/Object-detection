@@ -44,3 +44,22 @@ OpenCV `dnn ` module supports different pre-trained deep learning models and rec
 `
 git clone https://github.com/shayantaherian/Object-detection/OpenCV_ObjectDetection/.git
 `
+
+Then move to the directory
+
+`
+cd OpenCV_ObjectDetection
+`
+
+To run image detection
+
+`
+python yolo_Opencv.py
+`
+
+To run video and real-time webcame
+
+`
+python yolo_Opencv_video.py
+`
+
