@@ -63,4 +63,29 @@ To run video and real-time webcame
 python yolo_Opencv_video.py
 `
 ### Face detection using opencv
+To run the face detector, first clone to the repository
 
+`
+git clone https://github.com/shayantaherian/Object-detection/OpenCV_FaceDetection/.git
+`
+Then move to the directory 
+
+`
+cd OpenCV_FacetDetection
+`
+
+Run the image detector
+
+`
+python yolo_Opencv_Face.py
+`
+
+Run the video/webcame detector
+
+`
+python yolo_Opencv_Face_video.py
+`
+
+Note that to use yolo for face detection it is required to download yolo face detection weight from [yolov3.weights](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view)
+
+An example of yolo face detection
