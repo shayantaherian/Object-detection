@@ -7,16 +7,16 @@ import argparse
 import sys
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_cfg', type = str, default = '/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/Face_Detection/cfg/yolov3-face.cfg',
+parser.add_argument('--model_cfg', type = str, default = '',
                     help = 'Path to config file')
 parser.add_argument('--model_weights', type=str,
-                    default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/Face_Detection/model-weights/yolov3-wider_16000.weights',
+                    default='',
                     help='path to weights of model')
-parser.add_argument('--video', type=str, default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/Face_Detection/yoloface.avi',
+parser.add_argument('--video', type=str, default='',
                     help='path to video file')
 parser.add_argument('--src', type=int, default=0,
                     help='source of the camera')
-parser.add_argument('--output_dir', type=str, default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/Face_Detection/outputs/',
+parser.add_argument('--output_dir', type=str, default='',
                     help='path to the output directory')
 args = parser.parse_args()
 
