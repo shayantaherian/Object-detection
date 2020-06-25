@@ -86,8 +86,10 @@ Run the video/webcame detector
 python yolo_Opencv_Face_video.py
 `
 
-Note that to use yolo for face detection it is required to download yolo face detection weight from [yolov3.weights](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view). An example of face detection:
+Note that to use yolo for face detection it is required to download yolo face detection weight from [yolov3.weights](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view). An example of face detection on video:
 
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/51369142/85692530-62c74980-b6cd-11ea-8a88-1f068b5551d1.gif)
 
 ### References
 1. [Paperspace: YOLO object detector in PyTorch](https://blog.paperspace.com/tag/series-yolo/)
